@@ -54,8 +54,8 @@ SynthDef(\omb, {
 Synth(\omb)
 
 //Compile 1
-~fund = 200;
-(
+(~fund = 200;
+
 Pdef(\omb,
 	Pbind(
 		\instrument, \omb,
@@ -85,8 +85,8 @@ SynthDef(\omb2, {
 Synth(\omb2)
 
 //Compile 2
-~fund = 200;
-(
+(~fund = 200;
+
 Pdef(\omb2,
 	Pbind(
 		\instrument, \omb2,
